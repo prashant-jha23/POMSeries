@@ -18,7 +18,7 @@ public class LoginPageTest extends BaseTest
 		System.out.println("Login Page tittle :"+title);
 		Assert.assertEquals(title, Consants.LOGIN_PAGE_TITLE);
 	}
-	
+	@Description("TC_01 Login page url test")
 	@Test(priority=2)
 	public void loginPageURLTest() {
 		String url=loginPage.getLoginPageURL();
